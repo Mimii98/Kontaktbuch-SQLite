@@ -40,9 +40,9 @@
             // 
             // Btnsave
             // 
-            Btnsave.Location = new Point(121, 239);
+            Btnsave.Location = new Point(127, 233);
             Btnsave.Name = "Btnsave";
-            Btnsave.Size = new Size(144, 67);
+            Btnsave.Size = new Size(134, 36);
             Btnsave.TabIndex = 0;
             Btnsave.Text = "Speichern";
             Btnsave.UseVisualStyleBackColor = true;
@@ -119,7 +119,7 @@
             Controls.Add(txtBoxName);
             Controls.Add(Btnsave);
             Name = "Form1";
-            Text = "LstBox";
+            Text = "Kontaktbuch";
             Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
