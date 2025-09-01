@@ -1,0 +1,19 @@
+# ========================
+# Zeilenenden
+# ========================
+* text=auto
+ 
+# C# und Projektdateien → Windows CRLF
+*.cs text eol=crlf
+*.sln text eol=crlf
+*.csproj text eol=crlf
+*.xaml text eol=crlf
+*.config text eol=crlf
+*.resx text eol=crlf
+ 
+# Git soll Binärdateien nicht diffen
+*.dll binary
+*.exe binary
+*.pdb binary
+*.nuget binary
+*.nupkg binary

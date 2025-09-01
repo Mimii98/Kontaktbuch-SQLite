@@ -1,0 +1,70 @@
+# ========================
+# Visual Studio / IDE
+# ========================
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vscode/
+ 
+# Rider / JetBrains IDE
+.idea/
+*.sln.iml
+ 
+# ========================
+# Build Output
+# ========================
+bin/
+obj/
+Debug/
+Release/
+TestResults/
+ 
+# ========================
+# NuGet Packages
+# ========================
+*.nupkg
+packages/
+.nuget/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+ 
+# ========================
+# Resharper
+# ========================
+_ReSharper*/
+*.DotSettings.user
+ 
+# ========================
+# Logs and temporary files
+# ========================
+*.log
+*.tlog
+*.tmp
+*.temp
+*.vsix
+*.cache
+*.dbmdl
+*.bak
+*.swp
+ 
+# ========================
+# OS-specific
+# ========================
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+ 
+# ========================
+# Secrets / credentials
+# ========================
+*.pfx
+*.key
+*.publishsettings
+ 
+# ========================
+# Local config files (für Multi-Device)
+# ========================
+appsettings.Local.json
